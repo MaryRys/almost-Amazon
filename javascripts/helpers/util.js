@@ -1,1 +1,6 @@
-console.log('Im working');
+const printToDom = (stringToPrint, divId) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML = stringToPrint;
+};
+
+export {printToDom};
