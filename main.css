@@ -1,3 +1,11 @@
 body {
     background-color: aqua;
 }
+#bookInfo {
+    background-color: yellow;
+}
+
+.bookCard {
+    width: 250px;
+    height: 250px;
+}
