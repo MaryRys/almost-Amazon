@@ -1,11 +1,31 @@
 body {
     background-color: aqua;
 }
+.title {
+    text-align: center;
+    color: white;
+}
+
 #bookInfo {
-    background-color: yellow;
+    background-color: lightslategray;
+    align-items: center;
+}
+
+.card {
+    object-fit: cover;
+    object-position: 0 0;
 }
 
 .bookCard {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
+}
+
+#cart {
+    height: 200px;
+    width: 200px;
+}
+
+button {
+    align-content: center;
 }
