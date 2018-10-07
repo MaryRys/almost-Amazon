@@ -1,7 +1,8 @@
-import {stringBuilder} from './components/store.js';
+import {stringBuilder, buyEvent} from './components/store.js';
 
 const initializeApp = () => {
     stringBuilder();
+    buyEvent();
 };
 
 initializeApp();
